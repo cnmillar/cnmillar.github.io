@@ -1,1 +1,17 @@
 @import "{{ site.theme }}";
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #252435;
+    background-image: none;
+}
+body {
+	font-family:Poppins;
+}
+a {
+	color:#47998b;
+}
+
+h1, h2, h3, h4 {
+	color: #000000;
+}
