@@ -15,4 +15,4 @@ My background sits at an intersection that's genuinely rare: founder and executi
 - Translating business strategy into data systems teams can actually use
 - Analytics and dashboarding that decision-makers will actually look at
 
-Take a look at my [case studies](/case-studies/) to see this in practice, or find me on [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE).
+Take a look at my [case studies](/case-studies/) to see this in practice, or find me on [LinkedIn](https://www.linkedin.com/in/caitlin-havlak).
