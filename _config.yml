@@ -35,8 +35,7 @@ plugins:
 author:
   name             : "Caitlin Havlak"
   avatar           : "/assets/images/avatar.jpg" # add a headshot here later
-  bio              : "Co-founder & former COO, Indiegraf. Data strategy leader bridging business, product, and technical execution."
-  location         : "North Vancouver, BC"
+  bio: "Co-founder, Indiegraf. Data strategy leader bridging business, product, and technical execution."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
