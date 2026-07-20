@@ -1,30 +1,28 @@
 ---
 title: "Predicting Publisher Churn"
-excerpt: "Building a Random Forest model to predict at-risk publisher accounts, from business problem to evaluated result."
+excerpt: "A Random Forest model to identify at-risk publisher accounts before they churn, built as part of a Data Science certificate capstone."
 ---
-
-*Draft — replace this with the full case study.*
 
 ## The problem
 
-Indiegraf serves 250+ independent publishers on a subscription model. Losing a publisher is costly, and without a system in place, it's hard to know who's at risk until it's too late.
+Indiegraf serves 180+ independent publishers on a subscription model. Losing a publisher is costly, and without a system to flag risk early, the pattern only becomes visible after it's too late to act.
 
 ## Approach
 
-- Data used: [describe the features/signals, anonymized]
-- Why Random Forest: [brief, plain-language rationale]
-- Process: [high-level, not a full ML writeup]
+- **Data:** account-level usage and behavioral signals collected across the publisher base
+- **Model:** Random Forest, chosen for its ability to handle mixed feature types and surface which signals matter most, without requiring heavy feature engineering upfront
+- **Scope:** 250 publisher accounts
+
+## Tools
+
+Python, pandas, scikit-learn for modeling and evaluation. Feature exploration and validation in Jupyter notebooks.
 
 ## Result
 
-The model achieved an AUC of 0.81 across 250 accounts. In plain terms: given a random at-risk account and a random healthy one, the model correctly ranks the at-risk account higher about 81% of the time.
+- **AUC: 0.81** — in plain terms, given one at-risk account and one healthy account, the model correctly ranks the at-risk one higher about 81% of the time
+- Behavioral signals (engagement patterns, usage trends) were the strongest predictors, stronger than firmographic data like publisher size or tenure
+- Data quality gaps capped accuracy further. That's a finding on its own: it points to specific gaps worth closing before the next iteration, not just a limitation to note in passing
 
-Data quality gaps limited accuracy further — a useful finding in itself about where to invest next in data collection.
+## What this demonstrates
 
-## What it enabled
-
-[Describe how this informed retention strategy, a dashboard, account prioritization, etc.]
-
-## What this shows
-
-Going from a business problem to a working, evaluated model — not just the algorithm, but the judgment about what to build and why.
+Going from a business problem to a working, evaluated model. Not the algorithm choice on its own, but the judgment behind what to build, what data to trust, and what the result actually means for the business.
