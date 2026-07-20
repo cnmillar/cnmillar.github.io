@@ -1,4 +1,95 @@
-theme: jekyll-theme-cayman
-title: [Caitlin's site]
-description: [A short description of your site's purpose]
-show_downloads: ["false"]
+# ---------------------------
+# Site Settings
+# ---------------------------
+locale                   : "en-US"
+title                    : "Caitlin Havlak"
+title_separator          : "-"
+subtitle                 : "Data Strategy & Analytics"
+name                     : "Caitlin Havlak"
+description              : "Data strategy leader with executive and hands-on technical experience."
+url                      : "https://cnmillar.github.io" # change if/when you add a custom domain
+repository               : "cnmillar/cnmillar.github.io"
+logo                     :
+masthead_title           : "Caitlin Havlak"
+
+# Use remote_theme so GitHub Pages builds this without needing a Gemfile.lock
+# with a matching pinned version. This is the standard way to run Minimal
+# Mistakes (or any non-supported theme) on GitHub Pages' build servers.
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+
+# ---------------------------
+# Build settings
+# ---------------------------
+markdown                 : kramdown
+highlighter              : rouge
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# ---------------------------
+# Author (sidebar)
+# ---------------------------
+author:
+  name             : "Caitlin Havlak"
+  avatar           : "/assets/images/avatar.jpg" # add a headshot here later
+  bio              : "Co-founder & former COO, Indiegraf. Data strategy leader bridging business, product, and technical execution."
+  location         : "North Vancouver, BC"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE" # update this
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cnmillar"
+
+# ---------------------------
+# Footer
+# ---------------------------
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE" # update this
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cnmillar"
+
+# ---------------------------
+# Collections (case studies as their own type of content)
+# ---------------------------
+collections:
+  case_studies:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      toc: false
+  - scope:
+      path: ""
+      type: case_studies
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      toc: true
+      toc_sticky: true
+
+include:
+  - _pages
+
+exclude:
+  - README.md
