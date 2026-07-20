@@ -93,3 +93,6 @@ include:
 
 exclude:
   - README.md
+
+atom_feed:
+  hide: true
