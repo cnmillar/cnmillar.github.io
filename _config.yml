@@ -45,7 +45,7 @@ author:
       url: "https://github.com/cnmillar"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:cnmillar@gmail.com"
+      url: "mailto:hello@caitlinhavlak.com"
 
 # ---------------------------
 # Footer
@@ -58,6 +58,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cnmillar"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:hello@caitlinhavlak.com"
 
 # ---------------------------
 # Collections (case studies as their own type of content)
