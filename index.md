@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Caitlin Havlak"
+title: "Designing and Building Data Systems"
 permalink: /
 author_profile: true
 ---
