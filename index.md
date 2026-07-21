@@ -5,7 +5,7 @@ permalink: /
 author_profile: true
 ---
 
-I'm a co-founder of Indiegraf, a data platform serving 180+ independent news publishers across North and Latin America. After six years as COO, I'm now transitioning into a Strategic Advisor role focused on data strategy, while continuing to serve on Indiegraf's Board. That shift is intentional: I'm moving toward the work I find most valuable, designing the systems that let organizations understand their customers, predict risk, and grow with better information.
+I'm co-founder of Indiegraf, a platform serving 180+ independent news publishers across North and Latin America. After six years as COO, I'm now transitioning into a Strategic Advisor role focused on data strategy, while continuing to serve on Indiegraf's Board. That shift is intentional: I'm moving toward the work I find most valuable, designing the systems that let organizations understand their customers, predict risk and grow with better information.
 
 My background sits at an intersection that's genuinely rare: founder and executive experience, a business strategy lens, and hands-on technical ability to build the data infrastructure and models that make strategy real. I'm not trying to be a full-time engineer or a pure data scientist. I'm the person who can design the data function for a company *and* build the first version of it.
 
