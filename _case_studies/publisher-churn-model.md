@@ -1,6 +1,7 @@
 ---
 title: "Predicting Publisher Churn"
 excerpt: "A Random Forest model to identify at-risk publisher accounts before they churn, built as part of a Data Science certificate capstone."
+order: 3
 ---
 
 ## The problem

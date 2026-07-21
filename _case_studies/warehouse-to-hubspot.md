@@ -1,6 +1,7 @@
 ---
 title: "Getting Warehouse Data into the Hands That Need It"
 excerpt: "A weekly pipeline that turns raw warehouse metrics into plain status labels inside HubSpot, so the customer success team sees publisher health without needing to interpret a number themselves."
+order: 2
 ---
 
 ## The problem

@@ -1,6 +1,7 @@
 ---
 title: "Designing a Revenue Intelligence Engine"
 excerpt: "A data strategy capstone on consolidating scattered data sources into a system built for retention, expansion, and partnership scaling."
+order: 1
 ---
 
 ## The problem
