@@ -3,3 +3,5 @@ main:
     url: /about/
   - title: "Case Studies"
     url: /case-studies/
+  - title: "Contact"
+    url: /contact/
