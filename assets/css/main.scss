@@ -27,15 +27,30 @@ h1, h2, h3, .page__title {
 
 .case-study-card {
   border: 1px solid #eee;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 1.5em;
   display: flex;
   flex-direction: column;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    border-color: #ddd;
+  }
 
   h3 {
     margin-top: 0;
     margin-bottom: 0.5em;
-    font-size: 1.1em;
+    font-size: 1.15em;
+
+    a {
+      text-decoration: none;
+      color: #1a1a1a;
+
+      &:hover {
+        color: $accent-color;
+      }
+    }
   }
 
   p {
