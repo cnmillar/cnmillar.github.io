@@ -19,6 +19,11 @@ body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
+.page__title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 .case-study-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
