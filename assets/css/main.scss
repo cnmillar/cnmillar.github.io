@@ -58,10 +58,10 @@ body {
 
     a {
       text-decoration: none;
-      color: $accent-color;
+      color: #1a1a1a;
 
       &:hover {
-        text-decoration: underline;
+        color: $accent-color;
       }
     }
   }
@@ -84,12 +84,16 @@ body {
   color: #1a1a1a;
 }
 
-// All links — blue, everywhere
+// All links — black by default, blue on hover
 .masthead__inner-wrap a,
 .greedy-nav a,
 .author__urls-wrapper a,
 .page__content a {
-  color: $accent-color;
+  color: #1a1a1a;
+
+  &:hover {
+    color: $accent-color;
+  }
 }
 
 .toc .nav__title {
