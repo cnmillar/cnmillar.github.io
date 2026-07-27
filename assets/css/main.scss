@@ -140,3 +140,11 @@ body {
     }
   }
 }
+
+.author__avatar img {
+  filter: none;
+
+  &:hover {
+    filter: grayscale(100%);
+  }
+}
