@@ -141,15 +141,8 @@ body {
   }
 }
 
-.author__avatar img {
-  filter: none;
-
-  &:hover {
-    filter: grayscale(100%);
-  }
-}
-
-.greedy-nav a.current,
-.greedy-nav .current {
-  border-bottom-color: $accent-color;
+.greedy-nav a:focus {
+  outline: none;
+  text-decoration: underline;
+  text-decoration-color: $accent-color;
 }
