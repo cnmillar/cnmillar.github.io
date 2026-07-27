@@ -1,6 +1,6 @@
 ---
 title: "Predicting Publisher Churn"
-excerpt: "A Random Forest model to identify at-risk publisher accounts before they churn, built as part of a Data Science certificate capstone."
+excerpt: "A model to identify at-risk publisher accounts before they churn, built as part of a Data Science certificate capstone."
 order: 3
 ---
 
@@ -8,15 +8,13 @@ order: 3
 
 Indiegraf serves 180+ independent publishers on a subscription model. Losing a publisher is costly, and without a system to flag risk early, the pattern only becomes visible after it's too late to act.
 
-## Approach
+## The framing
 
-- **Data:** account-level usage and behavioral signals collected across the publisher base
-- **Model:** Random Forest, chosen for its ability to handle mixed feature types and surface which signals matter most, without requiring heavy feature engineering upfront
-- **Scope:** 250 publisher accounts
+The goal was to catch risk early using signals already being collected: how actively a publisher was using the platform, and how that activity was trending over time. Rather than waiting for a cancellation to reveal a problem, the model looks for the early warning signs that tend to show up beforehand.
 
 ## Tools
 
-Python, pandas, scikit-learn for modeling and evaluation. Feature exploration and validation in Jupyter notebooks.
+Python, pandas, and scikit-learn for modeling and evaluation, using a Random Forest model trained on 250 publisher accounts. Feature exploration and validation in Jupyter notebooks.
 
 ## Result
 

@@ -35,7 +35,7 @@ plugins:
 author:
   name             : "Caitlin Havlak"
   avatar           : "/assets/images/avatar.jpg" # add a headshot here later
-  bio: "Co-founder, Indiegraf. Data strategy leader bridging business, product, and technical execution."
+  bio              : "Co-founder, Indiegraf. Designing data strategy and building the systems that carry it out."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"

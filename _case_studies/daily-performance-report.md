@@ -6,11 +6,11 @@ order: 4
 
 ## The problem
 
-Editorial teams at independent publishers need to know how yesterday's stories performed and how the business is trending, but they don't have time to log into four different dashboards to piece it together. Data existed in GA4, Pelcro, and Cakemail. Nobody was looking at all of it, because nobody had time to.
+Editorial teams at independent publishers need to know how yesterday's stories performed and how the business is trending, but they don't have time to log into several different dashboards to piece it together. The information existed somewhere; nobody was looking at all of it, because nobody had time to.
 
-## Approach
+## The framing
 
-A scheduled pipeline pulls from all four sources every morning: pageviews and traffic sources from GA4, subscription and paid-member activity from Pelcro, and newsletter open/click performance from Cakemail. Rather than dropping raw numbers into an email, the pipeline uses the Gemini API to generate a short plain-language summary highlighting what actually matters that day, before the full metrics breakdown.
+A scheduled pipeline pulls the relevant numbers together every morning: story traffic, subscriber activity, and newsletter performance. Rather than dropping raw numbers into an email, it uses AI to generate a short plain-language summary highlighting what actually matters that day, ahead of the full metrics breakdown.
 
 ## Tools
 
