@@ -148,3 +148,8 @@ body {
     filter: grayscale(100%);
   }
 }
+
+.greedy-nav a.current,
+.greedy-nav .current {
+  border-bottom-color: $accent-color;
+}
