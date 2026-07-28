@@ -141,8 +141,6 @@ body {
   }
 }
 
-.greedy-nav a:focus {
-  outline: none;
-  text-decoration: underline;
-  text-decoration-color: $accent-color;
+.greedy-nav .visible-links a:before {
+  background: $accent-color;
 }
