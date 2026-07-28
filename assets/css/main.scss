@@ -94,7 +94,6 @@ body {
   &:hover {
     color: $accent-color;
   }
-}
 
 .toc .nav__title {
   background-color: #2049e0;
@@ -155,4 +154,8 @@ body {
   .sidebar {
     opacity: 1;   /* full visibility by default — you already changed this in the inspector */
   }
+}
+
+form {
+  background-color: #ffffff00
 }
