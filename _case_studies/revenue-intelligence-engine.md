@@ -37,4 +37,4 @@ This is internal infrastructure, not a publisher-facing product yet. But it's th
 
 Designing the data function for a company, not just building one model inside it. The strategic use cases came first; the architecture was built to serve them, not the other way around.
 
-This architecture is also what made it possible to get outcome data directly into the hands of the team that uses it daily — see [Getting Data into the Hands That Need It](/case-studies/warehouse-to-hubspot/) for how that played out.
+This architecture is also what made it possible to get outcome data directly into the hands of the team that uses it daily — see [Getting Data into the Hands That Need It](/case_studies/warehouse-to-hubspot/) for how that played out.

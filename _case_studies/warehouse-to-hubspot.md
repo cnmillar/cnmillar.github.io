@@ -1,7 +1,7 @@
 ---
 title: "Getting Data into the Hands That Need It"
 excerpt: "A weekly pipeline that turns raw warehouse metrics into plain status labels inside the CRM, so the customer success team sees publisher health without needing to interpret a number themselves."
-order: 2
+order: 3
 ---
 
 ## The problem
@@ -24,4 +24,4 @@ Customer success staff see a publisher's trajectory, not just a snapshot, direct
 
 Data strategy isn't finished once the warehouse exists, and it isn't finished once numbers reach a CRM either. The judgment is in deciding what raw metrics actually mean, building that interpretation into the pipeline itself, and delivering a conclusion, not just data, to the team that has to act on it.
 
-This builds directly on the warehouse architecture described in [Bringing Publisher Data Into One Place](/case-studies/revenue-intelligence-engine/) — the piece that follows once the infrastructure exists.
+This builds directly on the warehouse architecture described in [Bringing Publisher Data Into One Place](/case_studies/revenue-intelligence-engine/) — the piece that follows once the infrastructure exists.

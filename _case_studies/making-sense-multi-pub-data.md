@@ -134,7 +134,7 @@ participant to fix it themselves first.
 
 ## The dashboard
 
-datalake.caitlinhavlak.com
+[datalake.caitlinhavlak.com](datalake.caitlinhavlak.com)
 
 The result is a simple, filterable dashboard showing every publication
 across all five sources in one place, alongside the Census context for
