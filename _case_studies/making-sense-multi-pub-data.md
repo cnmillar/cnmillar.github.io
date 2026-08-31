@@ -70,7 +70,7 @@ own data cleanly.
   public API
 
 <img src="/assets/images/data-lake.png" alt="Makig sense of multi-publisher data" style="max-width:100%;display:block;margin:2rem auto;" class="zoomable">
-<a href="datalake.caitlinhavlak.com">Dashboard: datalake.caitlin.com</a>
+Dashboard: <a href="https://datalake.caitlinhavlak.com">datalake.caitlinhavlak.com</a>
 
 ## What I'd change at scale
 
