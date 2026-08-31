@@ -186,3 +186,18 @@ form {
     max-height: 92vh;
   }
 }
+
+.case-study-thumb-link {
+  display: block;
+}
+
+.case-study-thumb {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  background: #FAFAF8;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
