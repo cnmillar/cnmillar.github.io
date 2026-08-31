@@ -2,6 +2,8 @@
 title: "Making Sense of Multi-Publisher Data"
 excerpt: "Five newsroom data sources, five different structures, one clean directory joined to public Census data. Resolves what can be resolved using each source's own data, and flags honestly the one case that can't."
 order: 2
+header:
+  teaser: /assets/images/data-lake.png
 ---
 
 ## The problem

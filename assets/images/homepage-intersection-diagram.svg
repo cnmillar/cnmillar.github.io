@@ -1,0 +1,23 @@
+<svg width="700" height="600" viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Intersection of business strategy, data engineering, and product thinking</title>
+<desc>A three-circle diagram showing business strategy, data engineering, and product thinking overlapping, with data strategy leadership positioned at their shared center.</desc>
+
+<style>
+  text { font-family: Arial, Helvetica, sans-serif; fill: #2C2C2A; }
+  .label { font-size: 20px; font-weight: 600; }
+  .center-label { font-size: 20px; font-weight: 700; fill: #2C2C2A; }
+  .circle { opacity: 0.5; }
+</style>
+
+<circle class="circle" cx="350" cy="220" r="150" fill="#0F6E56" stroke="#0F6E56" stroke-width="2"/>
+<circle class="circle" cx="280" cy="340" r="150" fill="#185FA5" stroke="#185FA5" stroke-width="2"/>
+<circle class="circle" cx="420" cy="340" r="150" fill="#534AB7" stroke="#534AB7" stroke-width="2"/>
+
+<text class="label" x="350" y="55" text-anchor="middle">Business Strategy</text>
+<text class="label" x="130" y="535" text-anchor="middle">Data Engineering</text>
+<text class="label" x="570" y="535" text-anchor="middle">Product Thinking</text>
+
+<rect x="270" y="280" width="160" height="46" rx="8" fill="#FFFFFF" opacity="0.85"/>
+<text class="center-label" x="350" y="309" text-anchor="middle">Data Strategy</text>
+
+</svg>

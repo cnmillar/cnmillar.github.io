@@ -2,6 +2,8 @@
 title: "A Daily Analytics Briefing for Editorial Teams"
 excerpt: "A scheduled pipeline that turns scattered publisher data into a plain-language daily briefing for editorial teams, no dashboard required."
 order: 4
+header:
+  teaser: /assets/images/daily-report-mockup.svg
 ---
 
 ## The problem

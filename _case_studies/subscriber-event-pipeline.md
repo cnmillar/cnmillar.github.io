@@ -2,6 +2,8 @@
 title: "Keeping Subscriber Data in Sync, Instantly"
 excerpt: "An event-driven system that routes subscription changes across multiple publisher sites to the right place in real time — segmentation, fulfillment alerts, and audit logging included."
 order: 5
+header:
+  teaser: /assets/images/subscriber-sync-diagram.svg
 ---
 
 ## The problem

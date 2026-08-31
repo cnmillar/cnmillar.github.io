@@ -2,6 +2,8 @@
 title: "Predicting Publisher Churn"
 excerpt: "A model to identify at-risk publisher accounts before they churn, built as part of a Data Science certificate capstone."
 order: 3
+header:
+  teaser: /assets/images/churn-model-diagram.svg
 ---
 
 ## The problem

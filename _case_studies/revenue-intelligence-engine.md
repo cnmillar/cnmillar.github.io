@@ -2,6 +2,8 @@
 title: "Bringing Publisher Data Into One Place"
 excerpt: "Consolidating scattered publisher data into a single system built for retention, expansion, and partnership decisions."
 order: 1
+header:
+  teaser: /assets/images/architecture-diagram-generic.svg
 ---
 
 ## The problem

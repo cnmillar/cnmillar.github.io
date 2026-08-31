@@ -2,6 +2,8 @@
 title: "Getting Data into the Hands That Need It"
 excerpt: "A weekly pipeline that turns raw warehouse metrics into plain status labels inside the CRM, so the customer success team sees publisher health without needing to interpret a number themselves."
 order: 3
+header:
+  teaser: /assets/images/warehouse-to-hubspot-diagram.svg
 ---
 
 ## The problem
