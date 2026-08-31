@@ -69,6 +69,8 @@ own data cleanly.
 - **Reference data:** US Census Bureau data, pulled directly from their
   public API
 
+<img src="/assets/images/data-lake.png" alt="Makig sense of multi-publisher data" style="max-width:100%;display:block;margin:2rem auto;">
+
 ## What I'd change at scale
 
 This version was built to prove the approach, not to handle real

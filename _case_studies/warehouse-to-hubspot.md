@@ -18,6 +18,8 @@ A scheduled weekly pipeline pulls current and prior-week snapshots for every pub
 
 Google Cloud Functions on a weekly schedule, BigQuery as the source (reading from a dedicated outcomes mart built on top of the warehouse), the CRM's API for the write-back.
 
+<img src="/assets/images/warehouse-to-hubspot.svg" alt="Getting data into the hands that need it" style="max-width:100%;display:block;margin:2rem auto;">
+
 ## Result
 
 Customer success staff see a publisher's trajectory, not just a snapshot, directly on the account record they already work from. A declining account surfaces as "Declining," not as a number someone has to compare against last week's number themselves. That's the difference between exposing data and delivering a signal someone can act on.

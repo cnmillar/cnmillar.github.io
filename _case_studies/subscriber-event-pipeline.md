@@ -24,6 +24,8 @@ The system listens for subscription changes (new, renewed, canceled) the moment 
 
 Google Cloud Functions (HTTP-triggered), Cloud Secret Manager for credentials, BigQuery for event logging, the publisher's email platform API for subscriber and segmentation management, Slack for real-time and error notifications.
 
+<img src="/assets/images/subscriber-sync-diagram.svg" alt="Keeping subscriber data in sync, instantly" style="max-width:100%;display:block;margin:2rem auto;">
+
 ## Result
 
 Subscription changes across multiple publisher sites are handled correctly and immediately, with no manual reconciliation step and nothing lost to a batch window. The event log turns every change into a durable, queryable record, which is what makes it possible to build reporting or troubleshoot a data discrepancy after the fact.
