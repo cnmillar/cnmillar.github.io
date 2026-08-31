@@ -29,6 +29,8 @@ One problem had to be solved before any of this could work: publishers didn't sh
 
 BigQuery as the central warehouse. Fivetran and Airbyte for most source-system integration. Custom pipelines on Google Cloud Functions for the systems those tools didn't support. A dbt model for the canonical publisher ID. Streamlit for the reporting and analytics layer.
 
+<img src="/assets/images/architecture-diagram-generic.svg" alt="Multi-publisher data pipeline architecture" style="max-width:100%;display:block;margin:2rem auto;">
+
 ## Why it mattered strategically
 
 Before this, Indiegraf had no unified view of publisher health. Questions about who was at risk, who was ready to grow, and where the network needed attention were answered with scattered exports and manual pulls, not a system. Centralizing this data gave the business its first real intelligence layer on its own customer base: a foundation for retention, expansion, and partnership decisions that were previously made on incomplete information.
