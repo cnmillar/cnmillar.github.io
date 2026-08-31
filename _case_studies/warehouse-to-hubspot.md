@@ -18,7 +18,7 @@ A scheduled weekly pipeline pulls current and prior-week snapshots for every pub
 
 Google Cloud Functions on a weekly schedule, BigQuery as the source (reading from a dedicated outcomes mart built on top of the warehouse), the CRM's API for the write-back.
 
-<img src="/assets/images/warehouse-to-hubspot.svg" alt="Getting data into the hands that need it" style="max-width:100%;display:block;margin:2rem auto;">
+<img src="/assets/images/warehouse-to-hubspot-diagram.svg" alt="Getting data into the hands that need it" style="max-width:100%;display:block;margin:2rem auto;" class="zoomable">
 
 ## Result
 

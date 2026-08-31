@@ -9,7 +9,7 @@ I spent six years as co-founder and COO of Indiegraf, building it into an operat
 
 My background combines founder and executive experience, a business strategy lens, and hands-on technical ability to build the data infrastructure and models that make strategy real. In practice, that means designing a company's data strategy and building the systems that carry it out.
 
-<img src="/assets/images/homepage-intersection-diagram.svg" alt="Business strategy, data engineering, and product thinking overlapping" style="width:480px;max-width:100%;display:block;margin:2.5rem auto;">
+<img src="/assets/images/homepage-intersection-diagram.svg" class="zoomable" alt="Business strategy, data engineering, and product thinking overlapping" style="width:480px;max-width:100%;display:block;margin:2.5rem auto;">
 
 ### What I do:
 - Set data and analytics strategy at the executive level: what to prioritize, what to trade off, and what a business actually needs to measure

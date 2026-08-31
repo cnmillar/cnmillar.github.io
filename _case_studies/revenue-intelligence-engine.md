@@ -29,7 +29,7 @@ One problem had to be solved before any of this could work: publishers didn't sh
 
 BigQuery as the central warehouse. Fivetran and Airbyte for most source-system integration. Custom pipelines on Google Cloud Functions for the systems those tools didn't support. A dbt model for the canonical publisher ID. Streamlit for the reporting and analytics layer.
 
-<img src="/assets/images/architecture-diagram-generic.svg" alt="Bringing publisher data into one place" style="max-width:100%;display:block;margin:2rem auto;">
+<img src="/assets/images/architecture-diagram-generic.svg" alt="Bringing publisher data into one place" style="max-width:100%;display:block;margin:2rem auto;" class="zoomable">
 
 ## Why it mattered strategically
 

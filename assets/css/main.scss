@@ -161,3 +161,28 @@ body {
 form {
   background-color: #ffffff00
 }
+
+.zoomable {
+  cursor: zoom-in;
+  transition: transform 0.2s;
+}
+
+.zoom-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+
+  &.active {
+    display: flex;
+  }
+
+  img {
+    max-width: 92vw;
+    max-height: 92vh;
+  }
+}

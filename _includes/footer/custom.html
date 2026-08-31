@@ -1,0 +1,11 @@
+<div class="zoom-overlay" id="zoom-overlay"><img id="zoom-overlay-img" src=""></div>
+<script>
+document.addEventListener('click', function(e) {
+  if (e.target.classList.contains('zoomable')) {
+    document.getElementById('zoom-overlay-img').src = e.target.src;
+    document.getElementById('zoom-overlay').classList.add('active');
+  } else if (e.target.id === 'zoom-overlay' || e.target.id === 'zoom-overlay-img') {
+    document.getElementById('zoom-overlay').classList.remove('active');
+  }
+});
+</script>

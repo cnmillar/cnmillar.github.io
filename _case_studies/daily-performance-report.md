@@ -18,6 +18,8 @@ A scheduled pipeline pulls the relevant numbers together every morning: story tr
 
 Google Cloud Functions, scheduled via GCP's built-in scheduler. GA4, Pelcro, and Cakemail as data sources. Gemini API for narrative summarization.
 
+<img src="/assets/images/daily-report-mockup.svg" alt="Daily Report performance email" class="zoomable" style="max-width:100%;display:block;margin:2rem auto;">
+
 ## Result
 
 A daily email, delivered automatically to editorial and leadership stakeholders, covering: top story performance against a 30-day baseline, newsletter open/click rates against trend, and subscriber growth (email and paid) with day-over-day and 7-day averages. No login, no dashboard, no manual pull required.

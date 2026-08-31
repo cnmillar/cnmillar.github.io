@@ -18,7 +18,7 @@ The goal was to catch risk early using signals already being collected: how acti
 
 Python, pandas, and scikit-learn for modeling and evaluation, using a Random Forest model trained on 250 publisher accounts. Feature exploration and validation in Jupyter notebooks.
 
-<img src="/assets/images/churn-model-diagram.svg" alt="predicting publisher churn" style="max-width:100%;display:block;margin:2rem auto;">
+<img src="/assets/images/churn-model-diagram.svg" alt="predicting publisher churn" style="max-width:100%;display:block;margin:2rem auto;" class="zoomable">
 
 ## Result
 
